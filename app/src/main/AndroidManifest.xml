@@ -11,10 +11,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TravelBuddy">
         <activity
+            android:name=".Description"
+            android:exported="false" />
+        <activity
             android:name=".SignUp"
             android:exported="false" />
         <activity
-            android:name="com.example.travelbuddy.ui.home.HomeViewModel"
+            android:name=".ui.home.HomeViewModel"
             android:exported="false"
             tools:ignore="Instantiatable" />
         <activity

@@ -93,7 +93,8 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="8dp"
-                android:text="Top"
+                android:text="Top Destinations"
+                android:textStyle="bold"
                 android:textSize="20dp" />
         </RelativeLayout>
         <GridLayout
@@ -111,6 +112,7 @@
                 android:layout_margin="12dp">
 
                 <LinearLayout
+                    android:id="@+id/canLayout"
                     android:gravity="center"
                     android:padding="16dp"
                     android:orientation="vertical"
@@ -119,16 +121,18 @@
                     <ImageView
                         android:id="@+id/can"
                         android:src="@drawable/canadabg"
-                        android:layout_width="120dp"
+                        android:background="@drawable/roundedimg"
+                        android:clipToOutline="true"
+                        android:layout_width="140dp"
                         android:scaleType="fitXY"
-                        android:layout_height="130dp"/>
+                        android:layout_height="140dp"/>
                     <TextView
                         android:id="@+id/cantxt"
-                        android:layout_margin="10dp"
-                        android:textSize="18sp"
                         android:text="@string/can"
                         android:gravity="center"
-                        android:layout_width="100dp"
+                        android:layout_marginTop="5dp"
+                        android:textSize="18sp"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
                 </LinearLayout>
 
@@ -152,16 +156,17 @@
                     <ImageView
                         android:id="@+id/us"
                         android:src="@drawable/us"
-                        android:layout_width="120dp"
+                        android:background="@drawable/roundedimg"
+                        android:clipToOutline="true"
+                        android:layout_width="140dp"
                         android:scaleType="fitXY"
-                        android:layout_height="130dp"/>
+                        android:layout_height="140dp"/>
                     <TextView
                         android:id="@+id/ustxt"
-                        android:layout_margin="12dp"
-                        android:textSize="18sp"
                         android:text="@string/us"
-                        android:gravity="center"
-                        android:layout_width="100dp"
+                        android:layout_marginTop="5dp"
+                        android:textSize="18sp"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
                 </LinearLayout>
 
@@ -192,16 +197,18 @@
                     <ImageView
                         android:id="@+id/nz"
                         android:src="@drawable/nz"
-                        android:layout_width="120dp"
+                        android:background="@drawable/roundedimg"
+                        android:clipToOutline="true"
+                        android:layout_width="140dp"
                         android:scaleType="fitXY"
-                        android:layout_height="130dp"/>
+                        android:layout_height="140dp"/>
                     <TextView
                         android:id="@+id/nztxt"
-                        android:layout_margin="12dp"
+                        android:layout_marginTop="5dp"
                         android:textSize="18sp"
                         android:text="@string/nz"
                         android:gravity="center"
-                        android:layout_width="100dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
                 </LinearLayout>
 
@@ -225,16 +232,18 @@
                     <ImageView
                         android:id="@+id/aus"
                         android:src="@drawable/aus"
-                        android:layout_width="120dp"
+                        android:background="@drawable/roundedimg"
+                        android:clipToOutline="true"
+                        android:layout_width="140dp"
                         android:scaleType="fitXY"
-                        android:layout_height="130dp"/>
+                        android:layout_height="140dp"/>
                     <TextView
                         android:id="@+id/austxt"
-                        android:layout_margin="12dp"
+                        android:layout_marginTop="5dp"
                         android:textSize="18sp"
                         android:text="@string/aus"
                         android:gravity="center"
-                        android:layout_width="100dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
                 </LinearLayout>
 
@@ -255,7 +264,8 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="8dp"
-                android:text="Most"
+                android:text="Most Visited"
+                android:textStyle="bold"
                 android:textSize="20dp" />
         </RelativeLayout>
 
@@ -282,16 +292,18 @@
                     <ImageView
                         android:id="@+id/sing"
                         android:src="@drawable/sing"
-                        android:layout_width="120dp"
+                        android:background="@drawable/roundedimg"
+                        android:clipToOutline="true"
+                        android:layout_width="140dp"
                         android:scaleType="fitXY"
-                        android:layout_height="130dp"/>
+                        android:layout_height="140dp"/>
                     <TextView
                         android:id="@+id/singtxt"
-                        android:layout_margin="12dp"
+                        android:layout_marginTop="5dp"
                         android:textSize="18sp"
                         android:text="@string/sing"
                         android:gravity="center"
-                        android:layout_width="100dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
                 </LinearLayout>
 
@@ -315,16 +327,18 @@
                     <ImageView
                         android:id="@+id/ire"
                         android:src="@drawable/ireland"
-                        android:layout_width="120dp"
+                        android:background="@drawable/roundedimg"
+                        android:clipToOutline="true"
+                        android:layout_width="140dp"
                         android:scaleType="fitXY"
-                        android:layout_height="130dp"/>
+                        android:layout_height="140dp"/>
                     <TextView
                         android:id="@+id/iretxt"
-                        android:layout_margin="12dp"
+                        android:layout_marginTop="5dp"
                         android:textSize="18sp"
                         android:text="@string/ire"
                         android:gravity="center"
-                        android:layout_width="100dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
                 </LinearLayout>
 
@@ -355,16 +369,18 @@
                     <ImageView
                         android:id="@+id/paris"
                         android:src="@drawable/paris"
-                        android:layout_width="120dp"
+                        android:layout_width="140dp"
                         android:scaleType="fitXY"
-                        android:layout_height="130dp"/>
+                        android:background="@drawable/roundedimg"
+                        android:clipToOutline="true"
+                        android:layout_height="140dp"/>
                     <TextView
                         android:id="@+id/paristxt"
-                        android:layout_margin="12dp"
+                        android:layout_marginTop="5dp"
                         android:textSize="18sp"
                         android:text="@string/fr"
                         android:gravity="center"
-                        android:layout_width="100dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
                 </LinearLayout>
 
@@ -388,16 +404,18 @@
                     <ImageView
                         android:id="@+id/ams"
                         android:src="@drawable/ams"
-                        android:layout_width="120dp"
+                        android:background="@drawable/roundedimg"
+                        android:clipToOutline="true"
+                        android:layout_width="140dp"
                         android:scaleType="fitXY"
-                        android:layout_height="130dp"/>
+                        android:layout_height="140dp"/>
                     <TextView
                         android:id="@+id/amstxt"
-                        android:layout_margin="12dp"
+                        android:layout_marginTop="5dp"
                         android:textSize="18sp"
                         android:text="@string/ams"
                         android:gravity="center"
-                        android:layout_width="100dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
                 </LinearLayout>
 

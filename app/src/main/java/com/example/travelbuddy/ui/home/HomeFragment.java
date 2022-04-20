@@ -1,20 +1,25 @@
 package com.example.travelbuddy.ui.home;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
+import com.example.travelbuddy.Description;
+import com.example.travelbuddy.R;
 import com.example.travelbuddy.databinding.FragmentHomeBinding;
 
 public class HomeFragment extends Fragment {
 
     private FragmentHomeBinding binding;
+    LinearLayout canLayout;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
@@ -24,8 +29,18 @@ public class HomeFragment extends Fragment {
         binding = FragmentHomeBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
+        canLayout = (LinearLayout) root.findViewById(R.id.canLayout);
+
 //        final TextView textView = binding.textHome;
 //        homeViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+
+        canLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), Description.class);
+                startActivity(intent);
+            }
+        });
         return root;
     }
 
