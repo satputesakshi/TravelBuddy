@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "742486956842",
-    "project_id": "travelbuddy-4c1ab",
-    "storage_bucket": "travelbuddy-4c1ab.appspot.com"
+    "project_number": "406081285474",
+    "project_id": "travelbuddy-2bc78",
+    "storage_bucket": "travelbuddy-2bc78.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:742486956842:android:6a4832742673b5f153dc53",
+        "mobilesdk_app_id": "1:406081285474:android:0c55aa708fdada12e4903b",
         "android_client_info": {
-          "package_name": "com.conestoga.travelbuddy"
+          "package_name": "com.example.travelbuddy"
         }
       },
       "oauth_client": [
         {
-          "client_id": "742486956842-e6u7bh59n7fih22o4gm2ijpcc2vks0o9.apps.googleusercontent.com",
+          "client_id": "406081285474-oma6dkfkshb60u35lrklus9t2qec4if2.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyB2oHaZ_M-evDqLtD1cLM1u9sCq5oA4yjk"
+          "current_key": "AIzaSyAa0a2Z9Zax5P0fl__gu_AumpiKIq2XHrE"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "742486956842-e6u7bh59n7fih22o4gm2ijpcc2vks0o9.apps.googleusercontent.com",
+              "client_id": "406081285474-oma6dkfkshb60u35lrklus9t2qec4if2.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

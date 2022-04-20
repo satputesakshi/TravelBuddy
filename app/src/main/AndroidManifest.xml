@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.travelbuddy">
 
     <application
@@ -12,6 +13,10 @@
         <activity
             android:name=".SignUp"
             android:exported="false" />
+        <activity
+            android:name="com.example.travelbuddy.ui.home.HomeViewModel"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
         <activity
             android:name=".SplashActivity"
             android:exported="true">

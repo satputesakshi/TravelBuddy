@@ -25,42 +25,46 @@
 <!--        android:textStyle="bold"/>-->
 
     <EditText
+        android:id="@+id/email"
         android:layout_width="match_parent"
-        android:paddingStart="10dp"
-        android:paddingEnd="10dp"
         android:layout_height="60dp"
-        android:layout_marginTop="15dp"
         android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
         android:layout_marginRight="20dp"
-        android:hint="Username"
+        android:background="@drawable/edittextbg"
         android:drawableStart="@drawable/ic_email"
         android:drawablePadding="10dp"
-        android:background="@drawable/edittextbg"/>
+        android:hint="Username"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp" />
 
     <EditText
+        android:id="@+id/pass"
         android:layout_width="match_parent"
-        android:paddingStart="10dp"
-        android:paddingEnd="10dp"
         android:layout_height="60dp"
-        android:layout_marginTop="30dp"
         android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
         android:layout_marginRight="20dp"
-        android:hint="Password"
+        android:background="@drawable/edittextbg"
         android:drawableStart="@drawable/ic_password"
         android:drawablePadding="10dp"
-        android:background="@drawable/edittextbg"/>
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp" />
 
     <android.widget.Button
+        android:id="@+id/btnLogin"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_gravity="center"
-        android:layout_marginTop="30dp"
         android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
         android:layout_marginRight="20dp"
         android:background="@drawable/buttonbg"
         android:text="LOGIN"
         android:textColor="@color/white"
-        android:textSize="20dp"/>
+        android:textSize="20dp" />
 
     <LinearLayout
         android:layout_width="wrap_content"

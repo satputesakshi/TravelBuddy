@@ -10,10 +10,10 @@
         <entry key="app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.1455" />
         <entry key="app/src/main/res/drawable/ic_email.xml" value="0.1035" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.14736785424878895" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.12537993920972645" />
-        <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.13857268823316396" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.14404296875" />
+        <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.12537993920972645" />
-        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.12537993920972645" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.2485122634284765" />
         <entry key="app/src/main/res/layout/fragment_notifications.xml" value="0.12537993920972645" />
         <entry key="app/src/main/res/layout/splashscreen.xml" value="0.12537993920972645" />
       </map>

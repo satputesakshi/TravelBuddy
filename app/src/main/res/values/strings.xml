@@ -3,4 +3,16 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="where">Where do you want to go?</string>
+    <string name="top">Top Destinations</string>
+    <string name="most">Most visited destinations</string>
+    <string name="fr">France</string>
+    <string name="ams">Amsterdam</string>
+    <string name="sing">Singapore</string>
+    <string name="nz">New Zealand</string>
+    <string name="can">Canada</string>
+    <string name="uk">UK</string>
+    <string name="us">USA</string>
+    <string name="ire">Ireland</string>
+    <string name="aus">Australia</string>
 </resources>
