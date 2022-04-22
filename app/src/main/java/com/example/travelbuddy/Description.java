@@ -106,7 +106,7 @@ public class Description extends AppCompatActivity {
                     HashMap headers = new HashMap();
                     headers.put("X-RapidAPI-Host", "visa-list.p.rapidapi.com");
                     headers.put("Content-type", "application/json");
-                    headers.put("X-RapidAPI-Key", "0bdca9d306msh543a6bd085483d7p172323jsn347a0072e9a1");
+                    headers.put("X-RapidAPI-Key", "12e7056570msha6229d0150f89e3p167d21jsn56b8de3b9997");
                     return headers;
             }};
 

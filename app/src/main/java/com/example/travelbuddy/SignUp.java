@@ -56,12 +56,10 @@ public class SignUp extends AppCompatActivity {
                 String phone = txtPhone.getText().toString();
                 String country = txtCountry.getText().toString();
                 //Form Validations
-                if(confirmPass != password)
+                if(!confirmPass.equals(password))
                 {
                     Toast.makeText(SignUp.this,"Password don't match", Toast.LENGTH_SHORT).show();
-                }
-
-                if(email.isEmpty() || password.isEmpty() || name.isEmpty() || phone.isEmpty() || country.isEmpty() || confirmPass.isEmpty())
+                } else if(email.isEmpty() || password.isEmpty() || name.isEmpty() || phone.isEmpty() || country.isEmpty() || confirmPass.isEmpty())
                 {
                     txtEmail.setError("This field cannot be blank.");
                     txtPassword.setError("This field cannot be blank.");
