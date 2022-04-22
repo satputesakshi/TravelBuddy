@@ -10,17 +10,23 @@
         <entry key="app/src/main/res/drawable/buttonbg.xml" value="0.1035" />
         <entry key="app/src/main/res/drawable/edittextbg.xml" value="0.1035" />
         <entry key="app/src/main/res/drawable/ic_account.xml" value="0.1035" />
+        <entry key="app/src/main/res/drawable/ic_baseline_expand_less_24.xml" value="0.1235" />
+        <entry key="app/src/main/res/drawable/ic_baseline_expand_more_24.xml" value="0.1235" />
         <entry key="app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.1455" />
         <entry key="app/src/main/res/drawable/ic_email.xml" value="0.1035" />
+        <entry key="app/src/main/res/drawable/ic_search.xml" value="0.1415" />
+        <entry key="app/src/main/res/drawable/newbuttonbg.xml" value="0.1235" />
+        <entry key="app/src/main/res/drawable/newedittextbg.xml" value="0.1235" />
         <entry key="app/src/main/res/drawable/roundedimg.xml" value="0.162" />
         <entry key="app/src/main/res/layout/activity_description.xml" value="0.1933876811594203" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.14736785424878895" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.14404296875" />
         <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.12537993920972645" />
+        <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.2243255568855077" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.2485122634284765" />
-        <entry key="app/src/main/res/layout/fragment_notifications.xml" value="0.12537993920972645" />
+        <entry key="app/src/main/res/layout/fragment_notifications.xml" value="0.16935576928785145" />
         <entry key="app/src/main/res/layout/splashscreen.xml" value="0.12537993920972645" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.2222222222222222" />
       </map>
     </option>
   </component>

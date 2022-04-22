@@ -10,6 +10,7 @@ public class SplashActivity extends Activity {
     Handler handler;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        //Initial Splash Screen
         super.onCreate(savedInstanceState);
         setContentView(R.layout.splashscreen);
 

@@ -148,6 +148,7 @@
                 android:layout_margin="12dp">
 
                 <LinearLayout
+                    android:id="@+id/usaLayout"
                     android:gravity="center"
                     android:padding="16dp"
                     android:orientation="vertical"
@@ -189,6 +190,7 @@
                 android:layout_margin="12dp">
 
                 <LinearLayout
+                    android:id="@+id/nzlLayout"
                     android:gravity="center"
                     android:padding="16dp"
                     android:orientation="vertical"
@@ -224,6 +226,7 @@
                 android:layout_margin="12dp">
 
                 <LinearLayout
+                    android:id="@+id/ausLayout"
                     android:gravity="center"
                     android:padding="16dp"
                     android:orientation="vertical"
@@ -284,6 +287,7 @@
                 android:layout_margin="12dp">
 
                 <LinearLayout
+                    android:id="@+id/singLayout"
                     android:gravity="center"
                     android:padding="16dp"
                     android:orientation="vertical"
@@ -319,6 +323,7 @@
                 android:layout_margin="12dp">
 
                 <LinearLayout
+                    android:id="@+id/ireLayout"
                     android:gravity="center"
                     android:padding="16dp"
                     android:orientation="vertical"
@@ -361,6 +366,7 @@
                 android:layout_margin="12dp">
 
                 <LinearLayout
+                    android:id="@+id/franceLayout"
                     android:gravity="center"
                     android:padding="16dp"
                     android:orientation="vertical"
@@ -397,6 +403,7 @@
 
                 <LinearLayout
                     android:gravity="center"
+                    android:id="@+id/amsterLayout"
                     android:padding="16dp"
                     android:orientation="vertical"
                     android:layout_width="match_parent"

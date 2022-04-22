@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:layout_gravity="center"
     tools:context=".SignUp">
 
     <ImageView
@@ -52,6 +53,34 @@
         android:hint="Email"
         android:paddingStart="10dp"
         android:paddingEnd="10dp"/>
+
+    <EditText
+        android:id="@+id/phoneTxt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/edittextbg"
+        android:drawableStart="@drawable/ic_phone"
+        android:drawablePadding="10dp"
+        android:hint="Phone"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp" />
+
+    <EditText
+        android:id="@+id/countryTxt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/edittextbg"
+        android:drawableStart="@drawable/ic_location_24"
+        android:drawablePadding="10dp"
+        android:hint="Country"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp" />
 
     <EditText
         android:id="@+id/txtPassword"
